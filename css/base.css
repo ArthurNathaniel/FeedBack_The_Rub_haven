@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Onest", sans-serif;
+
+  text-decoration: none;
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  background-color: #b88a442d;
+}
+.message {
+  text-align: center;
+  margin-bottom: 15px;
+  color: green;
+}
+.error {
+  color: red;
+}
+
+.all {
+  padding: 0 30%;
+  padding-block: 50px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 0 10%;
+  padding-block: 35px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.forms input {
+  padding-left: 3%;
+  height: 45px;
+  width: 100%;
+}
+
+.forms select {
+  padding-left: 3%;
+  height: 45px;
+  width: 100%;
+}
+.forms textarea {
+  height: 200px;
+  padding-left: 3%;
+  padding-top: 15px;
+}
+
+.forms button {
+  height: 45px;
+  background-color: #b88a44;
+  color: #fff;
+  border: none;
+}
+
+.box h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+
+
+@media only screen and (max-width: 1110px) {
+.all{
+  padding: 0 5%;
+  padding-block: 50px;
+}
+}
